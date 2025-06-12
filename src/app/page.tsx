@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import FeaturedCourse from "./components/featuredCourse";
 import Scroll from "./components/scroll";
 import InfiniteMovingCardsDemo from "./components/movingCard";
+import CardHover from "./components/cardHover";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
     <FeaturedCourse/>
     <Scroll/>
     <InfiniteMovingCardsDemo/>
+    <CardHover/>
    </main>
 
   )
