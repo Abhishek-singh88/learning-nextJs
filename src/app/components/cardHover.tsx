@@ -2,7 +2,10 @@ import { HoverEffect } from "./ui/card-hover-effect";
 
 export default function CardHover() {
   return (
-    <div className="max-w-5xl mx-auto px-8">
+    <div className="max-w-5xl mx-auto px-8 flex flex-col items-center">
+      <h2 className="text-3xl font-bold mb-8 text-white text-center py-5">
+        Card Hover Effect
+      </h2>
       <HoverEffect items={projects} />
     </div>
   );
