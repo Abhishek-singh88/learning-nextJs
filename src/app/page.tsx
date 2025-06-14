@@ -4,6 +4,7 @@ import FeaturedCourse from "./components/featuredCourse";
 import Scroll from "./components/scroll";
 import InfiniteMovingCardsDemo from "./components/movingCard";
 import CardHover from "./components/cardHover";
+import Instructor from "./components/instructor";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
     <Scroll/>
     <InfiniteMovingCardsDemo/>
     <CardHover/>
+    <Instructor/>
    </main>
 
   )
