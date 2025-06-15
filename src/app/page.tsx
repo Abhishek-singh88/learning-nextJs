@@ -5,6 +5,7 @@ import Scroll from "./components/scroll";
 import InfiniteMovingCardsDemo from "./components/movingCard";
 import CardHover from "./components/cardHover";
 import Instructor from "./components/instructor";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
     <InfiniteMovingCardsDemo/>
     <CardHover/>
     <Instructor/>
+    <Footer/>
    </main>
 
   )
